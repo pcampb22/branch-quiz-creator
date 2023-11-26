@@ -20,5 +20,4 @@ B- Deliverables: (all deliverables should be placed on GIT (your personal Github
 React code bootstrapped ¬using create-react-app which implements the above requirements.
 attached below sample json that your app should generate on adding / handle on editing..
 
-Please use functional components, demonstrate your thought process not the overuse of libraries and frameworks and follow SOLID principles 
-![image](https://github.com/pcampb22/quiz-creator/assets/23470721/a7459928-3d47-4387-8776-6293d6565644)
+Please use functional components, demonstrate your thought process not the overuse of libraries and frameworks, and follow SOLID principles 
