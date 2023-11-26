@@ -15,19 +15,18 @@ const QuizForm = ({quiz, onSave}) => {
       description,
       url: videoUrl,
       id: quiz.id,
-      answers: answers,
-      text: questions,
+
     });
   };
 
-  console.log(quiz, "quiz in QuizForm")
+  //handles changes to answers and questions on save
   const handleAnswers = (item) => {
     setAnswers([...answers, item]) 
-    console.log(item, "item in handleAnswers")
+
   }
   const handleQuestions = (item) => {
     setQuestions([...questions, item])
-    console.log(item, "item in handleQuestions")
+
   }
 
 

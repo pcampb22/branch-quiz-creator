@@ -1,11 +1,11 @@
 import React, {useState} from "react";
+import './QuizAnswer.css'
 
 function QuizAnswer({ question, index, handleAnswers }) {
   const [answers, setAnswers] = useState();
   
   const updateAnswers = (e) => {
     setAnswers(e?.is_true)
-    console.log(e?.is_true, "is true")
     handleAnswers(e?.is_true)
   }
 
@@ -19,12 +19,15 @@ function QuizAnswer({ question, index, handleAnswers }) {
             type="radio"
             name={index}
             id="flexRadioDefault1"
-            onClick={() =>updateAnswers(item) }
+            onChange={() =>updateAnswers(item) }
           />
           <span>{item?.text}</span>
         </div>
       ))}
-      {answers ? question.feedback_true : question.feedback_false}
+     
+   {/* displays feedback changes based on button answer selected */}
+   
+    {<h5 className="feedback"> { answers ? question.feedback_true : question.feedback_false}</h5>}
     </>
   );
 }
