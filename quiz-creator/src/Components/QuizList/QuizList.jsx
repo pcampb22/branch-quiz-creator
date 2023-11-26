@@ -2,12 +2,12 @@ import React from 'react';
 const QuizList = ({ quizzes, onEdit }) => {
   return (
     <div>
-      <h1>Quiz List</h1>
+      <h1 className='text-center'>Quiz List</h1>
       <ul>
         {quizzes.map((quiz) => (
           <li key={quiz.id}>
             {quiz.title} -{' '}
-            <button onClick={() => onEdit(quiz.id)}>Edit</button>
+            <button className="btn btn-primary" onClick={() => onEdit(quiz.id)}>Edit</button>
           </li>
         ))}
       </ul>
