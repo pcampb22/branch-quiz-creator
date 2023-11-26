@@ -21,3 +21,5 @@ React code bootstrapped ¬using create-react-app which implements the above requ
 attached below sample json that your app should generate on adding / handle on editing..
 
 Please use functional components, demonstrate your thought process not the overuse of libraries and frameworks, and follow SOLID principles 
+
+<img src=""/>
