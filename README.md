@@ -22,4 +22,4 @@ attached below sample json that your app should generate on adding / handle on e
 
 Please use functional components, demonstrate your thought process not the overuse of libraries and frameworks, and follow SOLID principles 
 
-<img src="https://ibb.co/QbSbg9J"/>
+<img src="https://i.ibb.co/QbSbg9J/Screenshot-2023-11-26-at-1-56-09-PM.png" />
